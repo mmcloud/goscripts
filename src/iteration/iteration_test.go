@@ -3,11 +3,11 @@ package iteration
 import "testing"
 
 func TestRepeat(t *testing.T) {
-	repeated := Repeat("a", 5)
-	expected := "aaaaa"
+	got := Repeat("a", 5)
+	want := "aaaaa"
 
-	if repeated != expected {
-		t.Errorf("expected '%q' but got '%q'", expected, repeated)
+	if got != want {
+		t.Errorf("wanted '%q' but got '%q'", want, got)
 	}
 }
 
