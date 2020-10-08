@@ -1,5 +1,5 @@
 # goscripts
-A general collection of scripts
+A general collection of scripts used to teach myself go.
 
 
 ## Layout
@@ -16,7 +16,7 @@ Workflow Notes:
 
 - Create new module, init go.mod file
     ```
-    go mod init mmcloud.com/hello
+    go mod init github.com/mmcloud/goscript/src/hello
     ```
 - Package building commands add to go.mod
     ```
@@ -35,3 +35,6 @@ Workflow Notes:
     ```
     go mod tidy
     ```
+
+## Binary Tree
+[wiki](https://en.wikipedia.org/wiki/Binary_search_tree)
