@@ -119,6 +119,12 @@ a := make([]int, 5) //Makes an zero array of length 5
 b := make([]int, 0, 5) // len(b)=0, cap(b)=5
 ```
 
+- Use make to create [maps](https://blog.golang.org/maps)
+
+```go
+m = make(map[string]int)
+```
+
 - Interfaces
 
 ```go
@@ -127,7 +133,7 @@ type Shape interface {
 }
 ```
 
-- Testing Multiple Interfaces
+- Testing Multiple Structs
 
 ```go
     func TestAreaInterfaceRefactored(t *testing.T) {
