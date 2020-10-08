@@ -126,6 +126,13 @@ b := make([]int, 0, 5) // len(b)=0, cap(b)=5
 m = make(map[string]int)
 ```
 
+- use make to create channels
+
+```go
+resultChannel := make(chan result)
+```
+
+
 - Interfaces
 
 ```go
